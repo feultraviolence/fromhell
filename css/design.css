@@ -1,0 +1,121 @@
+body {
+    padding: 0px;
+    background-image: url('../img-gifs/skull-dance.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Id */
+#titulo-principal {
+    background: rgb(87, 2, 2);
+    color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px;
+    width: 1694px;
+    border: 2px solid black;
+    letter-spacing: 5px;
+    background-position-x: 10px;
+
+}
+
+/* Secundário */
+h2 {
+    background: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 1px;
+    width: 500px;
+
+}
+
+/* Link Entrar */
+.link-entrar {
+    background-color: black;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 3px 1px;
+    width: 110px;
+    margin: 20px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 4px;
+    display: block;
+    transition: 0.1s;
+}
+
+.link-entrar:hover {
+    background-color: rgb(87, 2, 2);
+}
+
+/* Gifs */
+.clockwork {
+    border: 2px solid blue;
+    width: 20%;
+    display: flex;
+    position: relative;
+}
+
+/* Box Model */
+.box-model1 {
+    width: 150px;
+    height: 70px;
+    border: 2px solid black;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: auto;
+    margin: 10px;
+    background-image: url('../img-gifs/FireAngel.gif')
+}
+
+/* Classes Parágrafos */
+.meu-paragrafo1 {
+    background: black;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 1px;
+    width: 500px;
+}
+
+.meu-paragrafo2 {
+    background: black;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 1px;
+    width: 500px;
+}
+
+/* Rodapé */
+footer {
+    background: rgb(87, 2, 2);
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    padding: 1px;
+    width: 1693px;
+    border: 2px solid black;
+    display: inline-block;
+    align-items: center;
+}
+
+.cruzdown {
+    align-items: center;
+    border-color: aliceblue;
+    width: 2%;
+}
